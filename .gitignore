@@ -52,7 +52,8 @@ Plugins/**/Binaries/*
 
 # Builds
 Build/*
-
+# 忽略任意位置的 Build 文件夹（推荐）
+**/Build/
 # Whitelist PakBlacklist-<BuildConfiguration>.txt files
 !Build/*/
 Build/*/**
